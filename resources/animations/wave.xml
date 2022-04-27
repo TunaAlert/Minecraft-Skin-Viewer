@@ -1,0 +1,36 @@
+<animation length="4" name="Wave">
+	<torso>
+		<roll i="SMOOTH">
+			<keyframe t="0.2">0</keyframe>
+			<keyframe t="0.4" i="CONSTANT">10</keyframe>
+			<keyframe t="1.8">10</keyframe>
+			<keyframe t="2" i="CONSTANT">0</keyframe>
+			<keyframe t="2.2">0</keyframe>
+			<keyframe t="2.4" i="CONSTANT">-10</keyframe>
+			<keyframe t="3.8">-10</keyframe>
+			<keyframe t="4">0</keyframe>
+		</roll>
+	</torso>
+	<left-arm>
+		<roll i="SMOOTH">
+			<keyframe t="0.2">0</keyframe>
+			<keyframe t="0.6">180</keyframe>
+			<keyframe t="0.85">130</keyframe>
+			<keyframe t="1.1">180</keyframe>
+			<keyframe t="1.35">130</keyframe>
+			<keyframe t="1.6">180</keyframe>
+			<keyframe t="2">0</keyframe>
+		</roll>
+	</left-arm>
+	<right-arm>
+		<roll i="SMOOTH">
+			<keyframe t="2.2">0</keyframe>
+			<keyframe t="2.6">-180</keyframe>
+			<keyframe t="2.85">-130</keyframe>
+			<keyframe t="3.1">-180</keyframe>
+			<keyframe t="3.35">-130</keyframe>
+			<keyframe t="3.6">-180</keyframe>
+			<keyframe t="4">0</keyframe>
+		</roll>
+	</right-arm>
+</animation>

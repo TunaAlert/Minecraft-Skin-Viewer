@@ -1,0 +1,60 @@
+<animation length="4" name="Sneak">
+	<head>
+		<pitch i="CONSTANT" length="1">
+			<keyframe t="0">0</keyframe>
+			<keyframe t="0.5">-30</keyframe>
+		</pitch>
+	</head>
+	<torso>
+		<pitch i="CONSTANT" length="1">
+			<keyframe t="0">0</keyframe>
+			<keyframe t="0.5">30</keyframe>
+		</pitch>
+	</torso>
+	<left-arm>
+		<pitch i="CONSTANT" length="1">
+			<keyframe t="0">0</keyframe>
+			<keyframe t="0.5">-15</keyframe>
+		</pitch>
+	</left-arm>
+	<right-arm>
+		<pitch i="CONSTANT" length="4">
+			<keyframe t="0">0</keyframe>
+			<keyframe t="0.5">-15</keyframe>
+			<keyframe t="1">0</keyframe>
+			<keyframe t="1.5">-15</keyframe>
+			<keyframe t="2">0</keyframe>
+			<keyframe t="2.5">-15</keyframe>
+			<keyframe t="3" i="SMOOTH_IN">0</keyframe>
+			<keyframe t="3.15" i="SMOOTH_OUT">-90</keyframe>
+			<keyframe t="3.3">0</keyframe>
+			<keyframe t="3.5">-15</keyframe>
+		</pitch>
+		<roll i="SMOOTH" length="4">
+			<keyframe t="3" i="SMOOTH_IN">0</keyframe>
+			<keyframe t="3.1">-30</keyframe>
+			<keyframe t="3.2" i="SMOOTH_OUT">15</keyframe>
+			<keyframe t="3.3">0</keyframe>
+		</roll>
+	</right-arm>
+	<offset>
+		<y i="CONSTANT" length="1">
+			<keyframe t="0">0</keyframe>
+			<keyframe t="0.5">-0.225</keyframe>
+		</y>
+		<z i="CONSTANT" length="1">
+			<keyframe t="0">0</keyframe>
+			<keyframe t="0.5">-0.375</keyframe>
+		</z>
+	</offset>
+	<leg-offset>
+		<y i="CONSTANT" length="1">
+			<keyframe t="0">0</keyframe>
+			<keyframe t="0.5">0.1</keyframe>
+		</y>
+		<z i="CONSTANT" length="1">
+			<keyframe t="0">0</keyframe>
+			<keyframe t="0.5">0.1</keyframe>
+		</z>
+	</leg-offset>
+</animation>

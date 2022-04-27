@@ -1,0 +1,28 @@
+<animation length="12" name="Breathe">
+	<right-arm>
+		<pitch i="SMOOTH" length="4">
+			<keyframe t="0" i="SMOOTH_IN">0</keyframe>
+			<keyframe t="1">2</keyframe>
+			<keyframe t="3" i="SMOOTH_OUT">-2</keyframe>
+			<keyframe t="4">0</keyframe>
+		</pitch>
+		<roll i="SMOOTH" length="6">
+			<keyframe t="0">0</keyframe>
+			<keyframe t="3">-6</keyframe>
+			<keyframe t="6">0</keyframe>
+		</roll>
+	</right-arm>
+	<left-arm>
+		<pitch i="SMOOTH" length="4">
+			<keyframe t="0" i="SMOOTH_IN">0</keyframe>
+			<keyframe t="1">-2</keyframe>
+			<keyframe t="3" i="SMOOTH_OUT">2</keyframe>
+			<keyframe t="4">0</keyframe>
+		</pitch>
+		<roll i="SMOOTH" length="6">
+			<keyframe t="0">0</keyframe>
+			<keyframe t="3">6</keyframe>
+			<keyframe t="6">0</keyframe>
+		</roll>
+	</left-arm>
+</animation>
