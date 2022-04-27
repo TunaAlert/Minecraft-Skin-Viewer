@@ -1,0 +1,112 @@
+<model name="Alex">
+	<texture width="64" height="64"></texture>
+	<torso x="-0.25" y="0" z="-0.125" dx="0.5" dy="0.75" dz="0.25">
+		<origin x="0" y="0.75" z="0"></origin>
+		<texture face="bottom" u1="28" v1="16" u2="36" v2="20" flipped="true"></texture>
+		<texture face="top" u1="20" v1="16" u2="28" v2="20"></texture>
+		<texture face="front" u1="20" v1="20" u2="28" v2="32"></texture>
+		<texture face="back" u1="32" v1="20" u2="40" v2="32"></texture>
+		<texture face="right" u1="16" v1="20" u2="20" v2="32"></texture>
+		<texture face="left" u1="28" v1="20" u2="32" v2="32"></texture>
+	</torso>
+	<head x="-0.25" y="0" z="-0.25" dx="0.5" dy="0.5" dz="0.5">
+		<origin x="0" y="1.5" z="0"></origin>
+		<texture face="bottom" u1="16" v1="0" u2="24" v2="8" flipped="true"></texture>
+		<texture face="top" u1="8" v1="0" u2="16" v2="8"></texture>
+		<texture face="front" u1="8" v1="8" u2="16" v2="16"></texture>
+		<texture face="back" u1="24" v1="8" u2="32" v2="16"></texture>
+		<texture face="right" u1="0" v1="8" u2="8" v2="16"></texture>
+		<texture face="left" u1="16" v1="8" u2="24" v2="16"></texture>
+	</head>
+	<right-arm x="-0.09375" y="-0.625" z="-0.125" dx="0.1875" dy="0.75" dz="0.25">
+		<origin x="-0.34375" y="1.375" z="0"></origin>
+		<texture face="bottom" u1="47" v1="16" u2="50" v2="20" flipped="true"></texture>
+		<texture face="top" u1="44" v1="16" u2="47" v2="20"></texture>
+		<texture face="front" u1="44" v1="20" u2="47" v2="32"></texture>
+		<texture face="back" u1="51" v1="20" u2="54" v2="32"></texture>
+		<texture face="right" u1="40" v1="20" u2="44" v2="32"></texture>
+		<texture face="left" u1="47" v1="20" u2="51" v2="32"></texture>
+	</right-arm>
+	<left-arm x="-0.09375" y="-0.625" z="-0.125" dx="0.1875" dy="0.75" dz="0.25">
+		<origin x="0.34375" y="1.375" z="0"></origin>
+		<texture face="bottom" u1="39" v1="48" u2="42" v2="52" flipped="true"></texture>
+		<texture face="top" u1="36" v1="48" u2="39" v2="52"></texture>
+		<texture face="front" u1="36" v1="52" u2="39" v2="64"></texture>
+		<texture face="back" u1="43" v1="52" u2="46" v2="64"></texture>
+		<texture face="right" u1="32" v1="52" u2="36" v2="64"></texture>
+		<texture face="left" u1="39" v1="52" u2="43" v2="64"></texture>
+	</left-arm>
+	<right-leg x="-0.125" y="-0.75" z="-0.125" dx="0.25" dy="0.75" dz="0.25">
+		<origin x="-0.125" y="0.75" z="0"></origin>
+		<texture face="bottom" u1="8" v1="16" u2="12" v2="20" flipped="true"></texture>
+		<texture face="top" u1="4" v1="16" u2="8" v2="20"></texture>
+		<texture face="front" u1="4" v1="20" u2="8" v2="32"></texture>
+		<texture face="back" u1="12" v1="20" u2="16" v2="32"></texture>
+		<texture face="right" u1="0" v1="20" u2="4" v2="32"></texture>
+		<texture face="left" u1="8" v1="20" u2="12" v2="32"></texture>
+	</right-leg>
+	<left-leg x="-0.125" y="-0.75" z="-0.125" dx="0.25" dy="0.75" dz="0.25">
+		<origin x="0.125" y="0.75" z="0"></origin>
+		<texture face="bottom" u1="24" v1="48" u2="28" v2="52" flipped="true"></texture>
+		<texture face="top" u1="20" v1="48" u2="24" v2="52"></texture>
+		<texture face="front" u1="20" v1="52" u2="24" v2="64"></texture>
+		<texture face="back" u1="28" v1="52" u2="32" v2="64"></texture>
+		<texture face="right" u1="16" v1="52" u2="20" v2="64"></texture>
+		<texture face="left" u1="24" v1="52" u2="28" v2="64"></texture>
+	</left-leg>
+	
+	<jacket x="-0.265625" y="-0.015625" z="-0.140625" dx="0.53125" dy="0.78125" dz="0.28125">
+		<origin x="0" y="0.75" z="0"></origin>
+		<texture face="bottom" u1="28" v1="32" u2="36" v2="36" flipped="true"></texture>
+		<texture face="top" u1="20" v1="32" u2="28" v2="36"></texture>
+		<texture face="front" u1="20" v1="36" u2="28" v2="48"></texture>
+		<texture face="back" u1="32" v1="36" u2="40" v2="48"></texture>
+		<texture face="right" u1="16" v1="36" u2="20" v2="48"></texture>
+		<texture face="left" u1="28" v1="36" u2="32" v2="48"></texture>
+	</jacket>
+	<hat x="-0.28125" y="-0.03125" z="-0.28125" dx="0.5625" dy="0.5625" dz="0.5625">
+		<origin x="0" y="1.5" z="0"></origin>
+		<texture face="bottom" u1="48" v1="0" u2="56" v2="8" flipped="true"></texture>
+		<texture face="top" u1="40" v1="0" u2="48" v2="8"></texture>
+		<texture face="front" u1="40" v1="8" u2="48" v2="16"></texture>
+		<texture face="back" u1="56" v1="8" u2="64" v2="16"></texture>
+		<texture face="right" u1="32" v1="8" u2="40" v2="16"></texture>
+		<texture face="left" u1="48" v1="8" u2="56" v2="16"></texture>
+	</hat>
+	<right-sleeve x="-0.109375" y="-0.640625" z="-0.140625" dx="0.21875" dy="0.78125" dz="0.28125">
+		<origin x="-0.34375" y="1.375" z="0"></origin>
+		<texture face="bottom" u1="47" v1="32" u2="50" v2="36" flipped="true"></texture>
+		<texture face="top" u1="44" v1="32" u2="47" v2="36"></texture>
+		<texture face="front" u1="44" v1="36" u2="47" v2="48"></texture>
+		<texture face="back" u1="51" v1="36" u2="54" v2="48"></texture>
+		<texture face="right" u1="40" v1="36" u2="44" v2="48"></texture>
+		<texture face="left" u1="47" v1="36" u2="51" v2="48"></texture>
+	</right-sleeve>
+	<left-sleeve x="-0.109375" y="-0.640625" z="-0.140625" dx="0.21875" dy="0.78125" dz="0.28125">
+		<origin x="0.34375" y="1.375" z="0"></origin>
+		<texture face="bottom" u1="55" v1="48" u2="58" v2="52" flipped="true"></texture>
+		<texture face="top" u1="52" v1="48" u2="55" v2="52"></texture>
+		<texture face="front" u1="52" v1="52" u2="55" v2="64"></texture>
+		<texture face="back" u1="59" v1="52" u2="62" v2="64"></texture>
+		<texture face="right" u1="48" v1="52" u2="52" v2="64"></texture>
+		<texture face="left" u1="55" v1="52" u2="59" v2="64"></texture>
+	</left-sleeve>
+	<right-pants x="-0.140625" y="-0.765625" z="-0.140625" dx="0.28125" dy="0.78125" dz="0.28125">
+		<origin x="-0.125" y="0.75" z="0"></origin>
+		<texture face="bottom" u1="8" v1="32" u2="12" v2="36" flipped="true"></texture>
+		<texture face="top" u1="4" v1="32" u2="8" v2="36"></texture>
+		<texture face="front" u1="4" v1="36" u2="8" v2="48"></texture>
+		<texture face="back" u1="12" v1="36" u2="16" v2="48"></texture>
+		<texture face="right" u1="0" v1="36" u2="4" v2="48"></texture>
+		<texture face="left" u1="8" v1="36" u2="12" v2="48"></texture>
+	</right-pants>
+	<left-pants x="-0.140625" y="-0.765625" z="-0.140625" dx="0.28125" dy="0.78125" dz="0.28125">
+		<origin x="0.125" y="0.75" z="0"></origin>
+		<texture face="bottom" u1="8" v1="48" u2="12" v2="52" flipped="true"></texture>
+		<texture face="top" u1="4" v1="48" u2="8" v2="52"></texture>
+		<texture face="front" u1="4" v1="52" u2="8" v2="64"></texture>
+		<texture face="back" u1="12" v1="52" u2="16" v2="64"></texture>
+		<texture face="right" u1="0" v1="52" u2="4" v2="64"></texture>
+		<texture face="left" u1="8" v1="52" u2="12" v2="64"></texture>
+	</left-pants>
+</model>
