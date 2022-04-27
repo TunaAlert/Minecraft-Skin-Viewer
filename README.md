@@ -24,6 +24,14 @@ Additionally, there is an option to set the window to always be on top, which wi
 In the sidebar you can toggle various body parts.  
 Additionally, you can change the background to another color, an image, or even a skybox.
 
+## Skyboxes
+
+Apart from the included default skybox, you can also load your own skyboxes. The skybox texture follows the same layout as the head of a Minecraft skin.
+
+## Animations
+
+You can add your own animations by clicking `Pose > Animation > Load Animation`. 
+
 # How to compile
 The project uses lwjgl, including lwjgl-glfw and lwjgl-util, [json-simple-1.1.1](https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple/1.1.1), and [Jakarta XML Binding API](https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api).
 
